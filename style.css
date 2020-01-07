@@ -1,0 +1,23 @@
+body {
+  background-color: dimgray;
+  display: flex;
+  justify-content: flex-start;
+}
+#list {
+  width: 300px;
+  height: 1000px;
+  background-color: bisque;
+}
+#main {
+  background-color: azure;
+}
+.box {
+  display: inline-block;
+  border: 1px solid black;
+}
+.list-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid cadetblue;
+}
